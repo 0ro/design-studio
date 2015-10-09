@@ -187,11 +187,11 @@ body {
 
   width: 1px;
   height: 17px;
+  margin: 30px 0 0;
 
   content: '';
 
   background: #ddd8d4;
-  margin: 30px 0 0;
 }
 .menu__item:last-child:after {
   display: none;
@@ -216,6 +216,7 @@ body {
 .slider {
 }
 .owl-carousel {
+  width: auto;
 }
 .owl-theme {
 }
@@ -288,4 +289,28 @@ body {
 .footer__contacts-list {
 }
 .footer__contacts-item {
+}
+.owl-theme .owl-controls {
+  position: absolute;
+  top: 28%;
+
+  width: 100%;
+
+  text-align: left;
+}
+.owl-buttons {
+}
+.owl-theme .owl-controls .owl-buttons div {
+  font-size: 63px;
+
+  position: absolute;
+
+  border-radius: 0;
+  background: none;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: 25px;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: 22px;
 }
