@@ -15,12 +15,12 @@ gulp.task('html', function(){
 });
 
 gulp.task('css', function(){
-  gulp.src('static/css/site/*.css')
+  gulp.src('css/*.css')
     .pipe(connect.reload());
 });
 
 gulp.task('watch', function () {
-  gulp.watch('static/css/site/*.css', ['css']);
+  gulp.watch('css/*.css', ['css']);
   gulp.watch('*.html', ['html']);
 });
 
