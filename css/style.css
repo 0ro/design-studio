@@ -8,8 +8,10 @@ body {
   max-width: none !important;
 }
 .page {
+  padding: 0 15px;
 }
 .header {
+  margin: 0 -15px;
 }
 .header__top {
   height: 38px;
@@ -253,6 +255,7 @@ body {
   margin: 15px 32px 0 0;
 }
 .article {
+  margin: 0 -15px;
 }
 .portpholio {
   margin: 20px 0 8px;
@@ -316,7 +319,7 @@ body {
 
   display: inline-block;
 
-  width: 50%;
+  width: 70%;
   height: 1px;
   margin: 0 -50% 0 0;
 
@@ -526,10 +529,12 @@ body {
   color: #926049;
 }
 .footer__contacts button {
-  color: #5a5a5a;
+  font-size: 18px;
+
   margin: 23px 0 0 0;
   padding: 6px 21px;
-  font-size: 18px;
+
+  color: #5a5a5a;
 }
 .footer__contacts button:hover {
   color: #ccc;
@@ -557,4 +562,88 @@ body {
 }
 .owl-theme .owl-controls .owl-buttons .owl-next {
   right: 22px;
+}
+.button {
+  font-size: 18px;
+  font-weight: 300;
+
+  padding: 10px 25px;
+
+  color: #926047;
+  border: 1px solid #ddd8d4;
+}
+.content {
+  margin: 43px 0 0;
+}
+.table {
+  padding: 23px 0 0;
+  border-bottom: 1px solid #ddd8d4;
+}
+.table__item {
+}
+.table__item-head {
+  font-size: 24px;
+  font-weight: 400;
+
+  height: 60px;
+  color: #fff;
+  padding: 13px 20px;;
+}
+.table__item-head h3 {
+  margin: 0;
+  
+}
+.table__item_color_blue .table__item-head {
+  background: #8dcfd3;
+}
+.table__item_color_brown .table__item-head {
+  background: #aa9583;
+}
+.table__item_color_gray .table__item-head {
+  background: #5a5a5a;
+}
+.table__item-head h3 span {
+  font-size: 30px;
+}
+.table__item-content {
+  border-left: 1px solid #ddd8d4;
+  border-right: 1px solid #ddd8d4;
+  padding: 7px 20px 10px;
+  color: #72645b;
+}
+.table__item-content h5 {
+  font-weight: 500;
+  margin: 10px 0 3px;
+
+}
+.table__item-content h5 span {
+  font-size: 12px;
+  font-weight: 300;
+
+}
+.table__item-content h6 {
+  font-size: 12px;
+  font-weight: 500;
+  
+}
+.table__item-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+.table__item-content ul li {
+  font-size: 12px;
+  padding: 0 0 0 21px;
+  font-weight: 300;
+  
+}
+.table__item_color_blue .table__item-content ul li {
+  background: url(../img/list-marker-plus-blue.png) 0 3px no-repeat;
+}
+.table__item_color_brown .table__item-content ul li {
+  background: url(../img/list-marker-plus-brown.png) 0 3px no-repeat;
+}
+.table__item_color_gray .table__item-content ul li {
+  background: url(../img/list-marker-plus-gray.png) 0 3px no-repeat;
 }

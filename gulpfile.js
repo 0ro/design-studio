@@ -20,8 +20,8 @@ gulp.task('css', function(){
 });
 
 gulp.task('watch', function () {
-  gulp.watch('css/*.css', ['css']);
+  // gulp.watch('css/*.css', ['css']);
   gulp.watch('*.html', ['html']);
 });
 
-gulp.task('default', ['connect', 'html', 'css', 'watch']);
+gulp.task('default', ['connect', 'html', 'watch']);
