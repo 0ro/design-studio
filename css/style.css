@@ -476,7 +476,6 @@ body {
 }
 .design {
   margin: 48px 0 0;
-
 }
 .design div {
   padding: 0;
@@ -488,12 +487,13 @@ body {
   line-height: 23px;
 }
 .footer {
-  padding: 0 0 125px;
   margin: 50px 0 0;
+  padding: 0 0 125px;
 }
-.footer .row {
-  border-top: 1px solid #ddd;
+.footer > .container > .row {
   padding: 30px 0 0;
+
+  border-top: 1px solid #ddd;
 }
 .footer__description {
   margin: 0 -15px 0;
@@ -593,6 +593,7 @@ body {
 
   color: #926047;
   border: 1px solid #ddd8d4;
+  background: none;
 }
 .content {
   margin: 43px 0 0;
@@ -736,7 +737,6 @@ body {
 }
 .slider-nav {
   margin: 33px 0;
-  
 }
 .slick-slide img {
   margin: 0 auto;
@@ -771,9 +771,9 @@ body {
 }
 .slick-prev:hover,
 .slick-next:hover {
-  background: #9a826d;
-  border: 1px solid #9a826d;
   color: #fff;
+  border: 1px solid #9a826d;
+  background: #9a826d;
 }
 
 .slick-prev:before,
@@ -801,4 +801,82 @@ body {
 }
 .slick-prev:before {
   content: '\f104';
+}
+.contacts {
+  margin: 18px 0 0;
+
+  color: #72645b;
+}
+.contacts__heading {
+  margin: 0 0 18px;
+}
+.contacts__content {
+}
+.contacts__content p {
+  font-size: 18px;
+  font-weight: 100;
+
+  text-align: center;
+}
+.contacts__list {
+  margin: 28px 0 0;
+}
+.contacts__list-item {
+  font-size: 18px;
+  font-weight: 100;
+
+  margin: 0 0 25px;
+}
+.icon {
+  float: left;
+
+  width: 30px;
+  height: 30px;
+  margin: 0 15px 0 0;
+
+  background-image: url(../img/icons.png);
+}
+.icon-map {
+  background-position: 0 0;
+}
+.icon-phone {
+  background-position: 0 -31px;
+}
+.icon-skype {
+  background-position: 0 -62px;
+}
+.icon-email {
+  background-position: 0 -93px;
+}
+.contacts__map {
+}
+.contacts__form {
+  margin: 30px 0 0;
+
+  text-align: center;
+}
+.input-text {
+  font-size: 14px;
+  font-weight: 300;
+
+  display: block;
+
+  width: 100%;
+  margin: 0 0 30px;
+  padding: 5px 10px;
+
+  border: 1px solid #ddd8d4;
+}
+.textarea {
+  font-size: 14px;
+  font-weight: 300;
+
+  width: 100%;
+  height: 144px;
+
+  border: 1px solid #ddd8d4;
+  padding: 5px 10px;
+}
+.contacts__form .button {
+  display: inline-block;
 }
