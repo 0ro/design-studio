@@ -23,10 +23,11 @@ body {
   font-size: 12px;
   font-weight: 300;
 
+  float: right;
+
   margin: 0 -15px 0;
 
   color: #ddd8d4;
-  float: right;
 }
 .header__contact-label {
   font-size: 12px;
@@ -133,6 +134,7 @@ body {
   display: block;
 
   margin: 7px 0 0 0;
+
   text-align: right;
 }
 
@@ -474,9 +476,7 @@ body {
 }
 .design {
   margin: 48px 0 0;
-  padding: 0 0 38px;
 
-  border-bottom: 1px solid #ddd;
 }
 .design div {
   padding: 0;
@@ -488,8 +488,12 @@ body {
   line-height: 23px;
 }
 .footer {
-  margin: 30px 0 0;
   padding: 0 0 125px;
+  margin: 50px 0 0;
+}
+.footer .row {
+  border-top: 1px solid #ddd;
+  padding: 30px 0 0;
 }
 .footer__description {
   margin: 0 -15px 0;
@@ -698,4 +702,103 @@ body {
 }
 .portfolio__navigation-item_active:hover {
   color: #ccc;
+}
+.portpholio-inner {
+  margin: 45px 0 0 0;
+}
+.portpholio-inner__heading {
+  margin: 0 0 30px;
+}
+.portfolio-inner__content {
+}
+.portfolio-inner__slider {
+}
+.portfolio-inner__description {
+}
+.portfolio-inner__description p {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+
+  color: #72645b;
+}
+.slick-dots {
+  display: none!important;
+}
+.slider-for {
+  padding: 33px;
+
+  box-shadow: 0 0 0 1px #ddd8d4,
+  0 0 0 3px #fff,
+  0 0 0 4px #ddd8d4,
+  0 0 0 6px #fff,
+  0 0 0 7px #ddd8d4;
+}
+.slider-nav {
+  margin: 33px 0;
+  
+}
+.slick-slide img {
+  margin: 0 auto;
+  padding: 5px;
+
+  border: 1px solid #ddd8d4;
+}
+.slick-slide:focus.slick-slide img {
+  border: 1px solid #926049;
+}
+.slick-slide:focus {
+  outline: none;
+}
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+
+  display: block;
+
+  width: 22px;
+  height: 22px;
+  margin-top: -10px;
+  padding: 0;
+
+  cursor: pointer;
+
+  color: #996a54;
+  border: 1px solid #ddd8d4;
+  outline: none;
+  background: transparent;
+}
+.slick-prev:hover,
+.slick-next:hover {
+  background: #9a826d;
+  border: 1px solid #9a826d;
+  color: #fff;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 20px;
+  line-height: 1;
+
+  display: inline-block;
+
+  opacity: .75;
+
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-prev {
+  left: -20px;
+}
+.slick-next {
+  right: -20px;
+}
+.slick-next:before {
+  content: '\f105';
+}
+.slick-prev:before {
+  content: '\f104';
 }
