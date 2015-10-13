@@ -11,6 +11,7 @@ body {
   padding: 0 15px;
 }
 .header {
+  min-width: 1190px;
   margin: 0 -15px;
 }
 .header__top {
@@ -25,6 +26,7 @@ body {
   margin: 0 -15px 0;
 
   color: #ddd8d4;
+  float: right;
 }
 .header__contact-label {
   font-size: 12px;
@@ -37,7 +39,7 @@ body {
 .header__contact-mail {
   float: left;
 
-  margin: 9px 0 0 21px;
+  margin: 9px 0 0 17px;
 }
 
 .header__contact-mail a {
@@ -130,7 +132,8 @@ body {
 .header__middle .telephone {
   display: block;
 
-  margin: 7px -15px 0 15px;
+  margin: 7px 0 0 0;
+  text-align: right;
 }
 
 .header__middle .logo {
@@ -178,7 +181,7 @@ body {
   box-shadow: inset 0 1px 0 #ddd8d4;
 }
 .menu {
-  width: 767px;
+  width: 790px;
   margin: 0 auto;
   padding: 0;
 
@@ -550,18 +553,33 @@ body {
 .owl-buttons {
 }
 .owl-theme .owl-controls .owl-buttons div {
-  font-size: 63px;
+  font-size: 60px;
 
   position: absolute;
 
+  width: 52px;
+  height: 52px;
+
+  border: 1px solid #b0b1b3;
   border-radius: 0;
   background: none;
+}
+.owl-theme .owl-controls .owl-buttons div:hover {
+  border: 1px solid #9a826d;
+  background: #9a826d;
 }
 .owl-theme .owl-controls .owl-buttons .owl-prev {
   left: 25px;
 }
+.owl-theme .owl-controls .owl-buttons i {
+  position: absolute;
+  top: -8px;
+}
+
 .owl-theme .owl-controls .owl-buttons .owl-next {
-  right: 22px;
+  right: 25px;
+
+  padding: 0 15px;;
 }
 .button {
   font-size: 18px;
@@ -650,11 +668,11 @@ body {
 .portfolio__navigation {
 }
 .portfolio__navigation-list {
+  width: 752px;
+  margin: 0 auto;
   padding: 0;
 
   list-style: none;
-  width: 752px;
-  margin: 0 auto;
 }
 .portfolio__navigation-item {
   font-size: 18px;
@@ -665,9 +683,10 @@ body {
   margin: 0 10px 0 0;
   padding: 6px 18px;
 
+  cursor: pointer;
+
   color: #5a5a5a;
   border: 1px solid #e0d9d5;
-  cursor: pointer;
 }
 .portfolio__navigation-item:hover {
   color: #a26046;
