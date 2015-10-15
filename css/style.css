@@ -341,6 +341,10 @@ body {
 }
 .portpholio__list {
   margin: 36px -6px 0;
+  display: none;
+}
+.portpholio__list_active {
+  display: block;
 }
 .portpholio__list-item {
   margin: 0 0 44px;
@@ -699,16 +703,16 @@ body {
 .table__item_color_gray .table__item-content ul li {
   background: url(../img/list-marker-plus-gray.png) 0 3px no-repeat;
 }
-.portfolio__navigation {
+.portpholio__navigation {
 }
-.portfolio__navigation-list {
-  width: 752px;
+.portpholio__navigation-list {
+  width: 770px;
   margin: 0 auto;
   padding: 0;
 
   list-style: none;
 }
-.portfolio__navigation-item {
+.portpholio__navigation-item {
   font-size: 18px;
   font-weight: 300;
 
@@ -722,15 +726,15 @@ body {
   color: #5a5a5a;
   border: 1px solid #e0d9d5;
 }
-.portfolio__navigation-item:hover {
+.portpholio__navigation-item:hover {
   color: #a26046;
 }
-.portfolio__navigation-item_active {
+.portpholio__navigation-item_active {
   color: #fff;
   border: 1px solid #5a5a5a;
   background: #5a5a5a;
 }
-.portfolio__navigation-item_active:hover {
+.portpholio__navigation-item_active:hover {
   color: #ccc;
 }
 .portpholio-inner {
@@ -739,13 +743,13 @@ body {
 .portpholio-inner__heading {
   margin: 0 0 30px;
 }
-.portfolio-inner__content {
+.portpholio-inner__content {
 }
-.portfolio-inner__slider {
+.portpholio-inner__slider {
 }
-.portfolio-inner__description {
+.portpholio-inner__description {
 }
-.portfolio-inner__description p {
+.portpholio-inner__description p {
   font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 23px;
