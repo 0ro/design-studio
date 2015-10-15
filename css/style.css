@@ -544,7 +544,9 @@ body {
   color: #5a5a5a;
 }
 .footer__contacts button:hover {
-  color: #ccc;
+  background: #926049;
+  border: 1px solid #926049;
+  color: #fff;
 }
 .owl-theme .owl-controls {
   position: absolute;
@@ -594,6 +596,12 @@ body {
   color: #926047;
   border: 1px solid #ddd8d4;
   background: none;
+}
+.button:hover {
+  background: #926049;
+  border: 1px solid #926049;
+  color: #fff;
+  text-decoration: none;
 }
 .content {
   margin: 43px 0 0;
