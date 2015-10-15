@@ -5,7 +5,7 @@ $(document).ready(function() {
     pagination : false,
     paginationSpeed : 400,
     singleItem:true,
-    navigationText : ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
+    navigationText : ["<i class='arrow-left'></i>","<i class='arrow-right'></i>"]
   });
    $('.slider-for').slick({
     slidesToShow: 1,

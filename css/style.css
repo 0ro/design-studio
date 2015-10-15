@@ -104,8 +104,8 @@ body {
   color: #fff;
 }
 .modal-button:focus {
-  outline: none;
   color: inherit;
+  outline: none;
 }
 .modal {
 }
@@ -548,13 +548,13 @@ body {
   color: #5a5a5a;
 }
 .footer__contacts button:hover {
-  background: #926049;
-  border: 1px solid #926049;
   color: #fff;
+  border: 1px solid #926049;
+  background: #926049;
 }
 .owl-theme .owl-controls {
   position: absolute;
-  top: 28%;
+  top: 34%;
 
   width: 100%;
 
@@ -573,6 +573,7 @@ body {
   border: 1px solid #b0b1b3;
   border-radius: 0;
   background: none;
+  padding: 12px 17px;
 }
 .owl-theme .owl-controls .owl-buttons div:hover {
   border: 1px solid #9a826d;
@@ -581,15 +582,26 @@ body {
 .owl-theme .owl-controls .owl-buttons .owl-prev {
   left: 25px;
 }
-.owl-theme .owl-controls .owl-buttons i {
-  position: absolute;
-  top: -8px;
-}
 
 .owl-theme .owl-controls .owl-buttons .owl-next {
   right: 25px;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev i {
+  display: block;
 
-  padding: 0 15px;;
+  width: 9px;
+  height: 24px;
+
+  background: url(../img/arrow-left.png) no-repeat;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-next i {
+  display: block;
+
+  width: 9px;
+  height: 24px;
+
+  background: url(../img/arrow-right.png) no-repeat;
 }
 .button {
   font-size: 18px;
@@ -602,14 +614,15 @@ body {
   background: none;
 }
 .button:hover {
-  background: #926049;
-  border: 1px solid #926049;
-  color: #fff;
   text-decoration: none;
+
+  color: #fff;
+  border: 1px solid #926049;
+  background: #926049;
 }
 .button:focus {
-  outline: none;
   color: #926047;
+  outline: none;
 }
 .content {
   margin: 43px 0 0;
@@ -889,9 +902,9 @@ body {
 
   width: 100%;
   height: 144px;
+  padding: 5px 10px;
 
   border: 1px solid #ddd8d4;
-  padding: 5px 10px;
 }
 .contacts__form .button {
   display: inline-block;
