@@ -19,6 +19,8 @@ $(document).ready(function() {
     slidesToScroll: 1,
     asNavFor: '.slider-for',
     dots: true,
-    focusOnSelect: true
+    focusOnSelect: true,
+    prevArrow: "<button type='button' data-role='none' class='slick-prev slick-arrow' aria-label='Next' role='button'></button>",
+    nextArrow:"<button type='button' data-role='none' class='slick-next slick-arrow' aria-label='Next' role='button'></button>",
   });
 });
