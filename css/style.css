@@ -103,6 +103,10 @@ body {
 .modal-button:hover {
   color: #fff;
 }
+.modal-button:focus {
+  outline: none;
+  color: inherit;
+}
 .modal {
 }
 .fade {
@@ -602,6 +606,10 @@ body {
   border: 1px solid #926049;
   color: #fff;
   text-decoration: none;
+}
+.button:focus {
+  outline: none;
+  color: #926047;
 }
 .content {
   margin: 43px 0 0;
