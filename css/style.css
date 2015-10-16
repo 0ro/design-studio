@@ -340,8 +340,9 @@ body {
   0 4px 0 0 #ddd8d4;
 }
 .portpholio__list {
-  margin: 36px -6px 0;
   display: none;
+
+  margin: 36px -6px 0;
 }
 .portpholio__list_active {
   display: block;
@@ -573,11 +574,11 @@ body {
 
   width: 52px;
   height: 52px;
+  padding: 12px 17px;
 
   border: 1px solid #b0b1b3;
   border-radius: 0;
   background: none;
-  padding: 12px 17px;
 }
 .owl-theme .owl-controls .owl-buttons div:hover {
   border: 1px solid #9a826d;
@@ -768,16 +769,32 @@ body {
   0 0 0 6px #fff,
   0 0 0 7px #ddd8d4;
 }
+.slider-for .slick-slide i.fa {
+  position: absolute;
+  top: 44%;
+  left: 44%;
+  color: #fff;
+  font-size: 32px;
+  display: none;
+}
+.slider-for .slick-slide:hover {
+  cursor: pointer;
+
+  opacity: .6!important;
+}
+.slider-for .slick-slide:hover i.fa {
+  display: block;
+}
 .slider-nav {
   margin: 33px 0;
 }
-.slick-slide img {
+.slider-nav .slick-slide img {
   margin: 0 auto;
   padding: 5px;
 
   border: 1px solid #ddd8d4;
 }
-.slick-slide:focus.slick-slide img {
+.slider-nav .slick-slide:focus.slick-slide img {
   border: 1px solid #926049;
 }
 .slick-slide:focus {
