@@ -112,20 +112,58 @@ body {
 .fade {
 }
 .modal-dialog {
+  box-shadow: 0 0 0 1px #888684, 0 0 0 3px #333333, 0 0 0 4px #888684, 0 0 0 6px #333333, 0 0 0 7px #888684;
+  border-radius: 0;
+  border: 13px solid rgba(0, 0, 0, 0);
+  box-sizing: content-box;
+  width: 444px;
 }
 .modal-content {
+  text-align: center;
 }
 .modal-header {
+  background: #5a5a5a;
+  margin: 10px;
+  font-size: 24px;
+  text-align: center;
+}
+.modal .button {
+  color: #5a5a5a;;
+}
+.modal .button:hover {
+  color: #fff;
+  background: #5a5a5a;
+  border: 1px solid #5a5a5a;
+}
+.modal .button:active {
+  color: #fff;
+  background: #5a5a5a;
+  border: 1px solid #5a5a5a;
 }
 .close {
+  font-weight: normal;
+  font-size: 30px;
+  color: #a5a5a5;
+  text-shadow: none;
+  margin: -37px -45px 0 0px;
+  opacity: 1;
+}
+.close span {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url(../img/close-modal.png);
+  
 }
 .contact-box-consult__title {
+  font-size: inherit;
 }
 .modal-body {
 }
 .form-group {
 }
 .form-control {
+  border-radius: 0;
 }
 .btn-primary {
 }
@@ -349,10 +387,10 @@ body {
 }
 .portpholio__list-item {
   margin: 0 0 44px;
-  padding: 33px;
 
   cursor: pointer;
 
+  padding: 33px;
   box-shadow: 0 0 0 1px #ddd8d4,
   0 0 0 3px #fff,
   0 0 0 4px #ddd8d4,
@@ -617,6 +655,7 @@ body {
   color: #926047;
   border: 1px solid #ddd8d4;
   background: none;
+  border-radius: 0;
 }
 .button:hover {
   text-decoration: none;
@@ -628,6 +667,13 @@ body {
 .button:focus {
   color: #926047;
   outline: none;
+}
+.button:active {
+  text-decoration: none;
+
+  color: #fff;
+  border: 1px solid #926049;
+  background: #926049;
 }
 .content {
   margin: 43px 0 0;
